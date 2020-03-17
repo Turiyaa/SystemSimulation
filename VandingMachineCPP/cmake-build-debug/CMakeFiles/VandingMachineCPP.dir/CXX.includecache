@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/narayan/Desktop/workspace/VandingMachineCPP/Model.cpp
+Model.h
+/Users/narayan/Desktop/workspace/VandingMachineCPP/Model.h
+vector
+-
+iostream
+/Users/narayan/Desktop/workspace/VandingMachineCPP/iostream
+VMConstant.cpp
+/Users/narayan/Desktop/workspace/VandingMachineCPP/VMConstant.cpp
+
+/Users/narayan/Desktop/workspace/VandingMachineCPP/Model.h
+iostream
+-
+State.h
+/Users/narayan/Desktop/workspace/VandingMachineCPP/State.h
+
+/Users/narayan/Desktop/workspace/VandingMachineCPP/State.h
+
+/Users/narayan/Desktop/workspace/VandingMachineCPP/VMConstant.cpp
+

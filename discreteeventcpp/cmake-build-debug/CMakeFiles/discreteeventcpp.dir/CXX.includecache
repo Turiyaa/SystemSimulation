@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/narayan/Desktop/workspace/discreteeventcpp/Model.cpp
+Model.h
+/Users/narayan/Desktop/workspace/discreteeventcpp/Model.h
+vector
+-
+iostream
+/Users/narayan/Desktop/workspace/discreteeventcpp/iostream
+VMConstant.cpp
+/Users/narayan/Desktop/workspace/discreteeventcpp/VMConstant.cpp
+
+/Users/narayan/Desktop/workspace/discreteeventcpp/Model.h
+State.h
+/Users/narayan/Desktop/workspace/discreteeventcpp/State.h
+vector
+/Users/narayan/Desktop/workspace/discreteeventcpp/vector
+
+/Users/narayan/Desktop/workspace/discreteeventcpp/State.h
+
+/Users/narayan/Desktop/workspace/discreteeventcpp/VMConstant.cpp
+

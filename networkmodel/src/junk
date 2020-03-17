@@ -1,0 +1,96 @@
+package vm;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) throws VendingMachineException, NumberFormatException, IOException {
+
+		// Do we ask user to input time?
+		List<testData> data = testData();
+
+		char coin;
+
+		Model model = new Model();
+		double prevtr = 0;
+		double realTime = 0;
+		double elapsedTime = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		BufferedReader br = null;
+		String batchFile;
+		System.out.print("Enter file name\t\t: ");
+		batchFile = scan.next();
+		FileReader fr = new FileReader(batchFile);
+		br = new BufferedReader(fr);
+		
+		for (testData d : data) {
+			realTime = d.realTime;
+			coin = d.coin;
+			String line;
+			if ((line = br.readLine()) != null) {
+				String[] strs = line.trim().split("\\s+");
+				realTime = Double.parseDouble(strs[0]);
+				
+				coin = strs[1].charAt(0);
+			}
+			// while (coin != 'e') {
+			System.out.println(coin);
+			System.out.println(model);
+			elapsedTime = Utility.format(realTime - prevtr);
+			double ta = Utility.timeAdvance(model.getValue());
+			System.out.println("e:" + elapsedTime + " ta: " + ta);
+			// if elapsed time is ta and no input call delta internal
+			if (elapsedTime == ta && model.getValue() >= 100) {
+				model.deltacon(coin);
+			} else if (coin == 'q' || coin == 'd' || coin == 'n') {
+				model.deltaext(coin);
+			} else if (elapsedTime == ta) {
+				model.deltaint();
+			}
+			
+			// System.out.print("Input: ");
+			// input = scan.next();
+			// coin = input.charAt(0);
+			prevtr = realTime;
+
+			// }
+			// scan.close();
+		}
+	}
+
+	public static List<testData> testData() {
+		List<testData> data = new ArrayList<testData>();
+		data.add(new testData(0.0, 'x'));
+		data.add(new testData(0.3, 'q'));
+		data.add(new testData(1.2, 'q'));
+		data.add(new testData(1.3, 'q'));
+		data.add(new testData(3.3, 'x'));
+		data.add(new testData(7.0, 'q'));
+		data.add(new testData(4.1, 'q'));
+		data.add(new testData(4.2, 'q'));
+		data.add(new testData(4.3, 'q'));
+		data.add(new testData(6.3, 'x'));
+		data.add(new testData(6.5, 'q'));
+		data.add(new testData(6.8, 'd'));
+		data.add(new testData(8.8, 'x'));
+
+		return data;
+
+	}
+}
+
+class testData {
+	double realTime;
+	char coin;
+
+	public testData(double t, char c) {
+		this.realTime = t;
+		this.coin = c;
+	}
+}

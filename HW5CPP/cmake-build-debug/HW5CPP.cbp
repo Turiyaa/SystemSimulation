@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HW5CPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW5CPP">
+				<Option output="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/HW5CPP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW5CPP"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW5CPP/fast">
+				<Option output="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/HW5CPP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW5CPP/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/narayan/Desktop/workspace/HW5CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/narayan/Desktop/workspace/HW5CPP/Event.h">
+			<Option target="HW5CPP"/>
+		</Unit>
+		<Unit filename="/Users/narayan/Desktop/workspace/HW5CPP/Machine.h">
+			<Option target="HW5CPP"/>
+		</Unit>
+		<Unit filename="/Users/narayan/Desktop/workspace/HW5CPP/Model.h">
+			<Option target="HW5CPP"/>
+		</Unit>
+		<Unit filename="/Users/narayan/Desktop/workspace/HW5CPP/Network.h">
+			<Option target="HW5CPP"/>
+		</Unit>
+		<Unit filename="/Users/narayan/Desktop/workspace/HW5CPP/main.cpp">
+			<Option target="HW5CPP"/>
+		</Unit>
+		<Unit filename="/Users/narayan/Desktop/workspace/HW5CPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
